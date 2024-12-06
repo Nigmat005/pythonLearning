@@ -106,7 +106,7 @@ print("==================Test=========================")
 # print("Welcome"[0::2])
 # print("Welcome"[3::-2])
 s="Welcome";
-print("Welcome"[::-1])
+print("Welcome"[-1::-1])
 print("Welcome"[7:0:-1])
 print("Welcome"[7:2:-1])
 print("Welcome"[5:0:-1])

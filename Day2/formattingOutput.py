@@ -24,3 +24,5 @@ print("=======================================")
 print("My name is {0}, and age is {1},salary is {2}".format(name,age,sal))
 
 
+
+

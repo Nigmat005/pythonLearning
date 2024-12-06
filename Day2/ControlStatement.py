@@ -26,24 +26,24 @@ break, continue
 #
 #
 #
-# def checkEvenNum(number):
-#     num=0;
-#     if number%2==0:
-#         print("This is Even Number")
-#         num = 0;
-#         return num;
-#     elif number<=0:
-#         print("You entered negative number ")
-#         num=-1
-#         return num;
-#
-#     else:
-#         num=1;
-#         print("This is Odd Number")
-#         return num;
-#
-# result=checkEvenNum(number)
-# print(result)
+def checkEvenNum(number):
+    num=0;
+    if number%2==0:
+        print("This is Even Number")
+        num = 0;
+
+    elif number<=0:
+        print("You entered negative number ")
+        num=-1
+
+
+    else:
+        num=1;
+        print("This is Odd Number")
+
+    return num;
+result=checkEvenNum(-1)
+print(result)
 
 day=5;
 ({print("Monday")} if day==1  else {(print("Tuesday"))} if day==2 else{print("Wednesday")} if day==3 else {print("Thursday")} if day==4

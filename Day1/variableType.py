@@ -5,6 +5,8 @@ print(type(b))
 print(type(c))
 
 d=[a,b,c]
+d={"This","is","Tuple","is","This"}
+print(type(d))
 print(d)
 print(type(c))
 
